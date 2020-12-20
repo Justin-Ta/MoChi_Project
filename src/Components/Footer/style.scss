@@ -1,0 +1,78 @@
+.footer__content{
+    background-color: $blackPrimary;
+    padding-bottom: $pd3;
+    .footer__1{
+        position: relative;
+        .container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            @media only screen and (max-width: $md) {
+                display: block;
+                text-align: center;
+                margin: 0 auto;
+            }
+
+        .footer__items{
+            ul{
+                li{
+                    list-style: none;
+                    display: inline;
+                    color: $whitePrimary;
+                    margin: 0 $pd3;
+                    padding-top: $pd3;
+                    .navLink{
+                        text-decoration: none;
+                        color: $whitePrimary;
+                        position: relative;
+                        &:hover{
+                            color: $orangeDark;
+                            &:after{
+                                position: absolute;
+                                content: "";
+                                display: block;
+                                width: 100%;
+                                height: 3px;
+                                left: 0;
+                                bottom: -2px;
+                                background-color: $orangeDark;
+                                transition: width 2s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .footer__icons{
+            i{
+                color: $whitePrimary;
+                font-size: $h4;
+                margin: $pd3;
+                padding: 0 $pd3 $pd1;
+                &:hover{
+                    color: $orangeDark;
+                }
+            }
+        }
+        }
+        &:after{
+            position: absolute;
+            content: "";
+            display: block;
+            width: 100%;
+            height: 1px;
+            left: 0;
+            bottom: 0;
+            background-color: $whitePrimary;
+        }
+    }
+    .footer__info{
+        padding: $pd2 0;
+        h2{
+            color: $txtOrangeDark;
+        }
+        span{
+            font-weight: $fwBold;
+        }
+    }
+}

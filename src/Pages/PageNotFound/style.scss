@@ -1,0 +1,25 @@
+.pageNotFound{
+    background-color: $whitePrimary;
+    color: $blackPrimary;
+    margin: 0 auto;
+    height: 80vh;
+    text-align: center;
+    img{
+        width: 40%;
+    }
+    h2{
+        font-size: $h3;
+    }
+    p{
+        font-size: $h5;
+    }
+    button{
+        border: 3px solid $greenLight;
+        background-color: $greenLight;
+        color: $whitePrimary;
+        border-radius: 15px;
+        font-size: $h4;
+        padding: $pd1 $pd3;
+
+    }
+}

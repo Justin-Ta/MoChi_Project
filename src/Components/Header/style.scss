@@ -1,0 +1,44 @@
+.header__content {
+    max-height: 110px;
+    background-color: $blackPrimary;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            width: 100px;
+        }
+        ul {
+            li {
+
+                list-style: none;
+                display: inline;
+                color: $whitePrimary;
+                margin: $pd3;
+                padding-top: $pd4;
+                font-weight: $fwBold;
+                .navLink{
+                    text-decoration: none;
+                    color: $whitePrimary;
+                    position: relative;
+                    &:hover{
+                        color: $orangeDark;
+                        &:after{
+                            position: absolute;
+                            content: "";
+                            display: block;
+                            width: 100%;
+                            height: 3px;
+                            left: 0;
+                            bottom: -2px;
+                            background-color: $orangeDark;
+                            transition: width 2s;
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: 'PT Serif', serif;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: justify;
+  background-image: url(https://cdnwebonplay.gviet.vn/public/img/BG-Noel_web.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  @media only screen and (min-width: 576px) {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+  @media only screen and (min-width: 768px) {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  @media only screen and (min-width: 992px) {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  @media only screen and (min-width: 1200px) {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+  @media only screen and (max-width: 576px) {
+    margin: auto 20px;
+  }
+}

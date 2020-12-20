@@ -1,0 +1,17 @@
+// Base
+@import './sass/Base/reset';
+
+// Helper
+@import './sass/Helper/variable';
+
+// Components
+@import './Components/Header/style.scss';
+@import './Components/Footer/style.scss';
+@import './Components/BackToTop/style.scss';
+@import './Components/Video/style.scss';
+// Page
+@import './Pages/Home/style.scss';
+@import './Pages/Term/style.scss';
+@import './Pages/AboutUs/style.scss';
+@import './Pages/Contact/style.scss';
+@import './Pages/PageNotFound/style.scss';

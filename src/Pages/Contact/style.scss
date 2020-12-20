@@ -1,0 +1,11 @@
+#contact__content{
+    background-color: $whitePrimary;
+    color: $blackPrimary;
+    padding: $pd4 0;
+    .google-map-code{
+        padding: $pd2 0;
+        .iframe{
+            width: 100%;
+        }
+    }
+}
